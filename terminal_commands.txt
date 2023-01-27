@@ -1,0 +1,16 @@
+pwd: prints working directory
+mkdir: makes directory
+cd: changes directory
+ls: lists files in directory
+rmdir: removes directory but the file needs to be empty
+preceeding things with / makes it absolute pathing
+rm: deletes files
+cp file-original.txt file-new.txt : this will copy the file-original.txt to the new file file-new.txt
+mv file1.txt ../: can move files to the ../ location
+mv filename.txt file.txt: will rename first file to the second file name.
+man <command> : this will list how to use the command listed
+nano filename: will create a new file and allow you to input text into it from the terminal
+head filename: will show the first 10 lines in the txtfile
+tail filename: will show the last 10 lines in the txtfile
+cd /: this will move you to the root directory which means there is nothing above this
+cd will take you to your user directory
