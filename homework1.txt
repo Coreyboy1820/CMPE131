@@ -1,0 +1,12 @@
+1. cd ~/c/mtn
+
+2. 
+
+7.  nano cats.png
+    ctrl + o 
+    enter
+    ctrl + x
+
+8.  the root directory which is / when you are in the directory
+
+9.  rm -r 

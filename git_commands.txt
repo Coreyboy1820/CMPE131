@@ -1,0 +1,2 @@
+git init: this allows you to create a git repo
+nano main.py hello.py: allows you to create multiple files.
