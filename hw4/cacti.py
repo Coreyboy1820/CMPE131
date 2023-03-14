@@ -35,9 +35,3 @@ def cacti_number(plot):
 def out_of_bounds(bounds, value):
     # lower bound = index 0    |    upper bound = index 1
     return (bounds[0] > value or bounds[1] < value)
-
-plot = [ [0, 1, 0, 0, 0, 0],
-[0, 0, 0, 1, 0, 0],
-[1, 0, 1, 0, 0, 1] ]
-
-print(cacti_number(plot))
