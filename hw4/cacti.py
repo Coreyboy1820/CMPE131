@@ -6,11 +6,11 @@ def cacti_number(plot):
     y_bounds = (0, y_max)
 
     for j in range(y_max+1):
+        previous_j = j-1
+        next_j = j+1
         for i in range(x_max+1):
             next_i = i+1
-            next_j = j+1
             previous_i = i-1
-            previous_j = j-1
 
             if plot[j][i] == 0:
                 increment = True
