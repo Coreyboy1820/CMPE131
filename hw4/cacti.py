@@ -28,7 +28,6 @@ def cacti_number(plot):
                         increment = False
                 if increment:
                     amount_left += 1
-                    plot[j][i] = 1
     return amount_left
                 
 
