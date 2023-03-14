@@ -1,0 +1,6 @@
+1. no
+2. yes
+3. the answers differ because a list is passed into a function by reference
+   which means that you are editing the element at the same memory location
+   as the original variable rather then a copy which is what increment_int_a
+   is doing
