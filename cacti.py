@@ -28,9 +28,12 @@ def cacti_number(plot):
                         increment = False
                 if increment:
                     amount_left += 1
+                    plot[j][i] = 1
     return amount_left
                 
 
 def out_of_bounds(bounds, value):
     # lower bound = index 0    |    upper bound = index 1
     return (bounds[0] > value or bounds[1] < value)
+
+print(cacti_number([[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]))
